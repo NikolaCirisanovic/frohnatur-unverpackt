@@ -6,12 +6,14 @@ const Layout = ({ children }) => {
  
   return (
     <>
-      <div
+      <Header siteTitle="Frohnatur - Unverpackt" />
+
+      <div className="body"
         
       >
         <main style={{
           position: "absolute",
-          top: "50%",
+          top: "40%",
           left: "50%",
           transform: "translate(-50%,-50%)",
           backgroundColor: '#dedede'      
