@@ -5,6 +5,32 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+.image-overlay {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  z-index: 9999999;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.image-overlay p {
+  background: #dedede;
+  margin: 0;
+  font-size: 36px;
+  width: auto;
+  padding: 15px 10px;
+  opacity: 0.7;
+  transform: rotate(-20deg)
+}
+
+@media screen and (max-width: 750px) {
+  .image-overlay p {
+    font-size: 25px;
+  }
+  
+}
 body {
   margin: 0;
   background-color: #dedede;

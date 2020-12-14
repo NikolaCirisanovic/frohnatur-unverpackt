@@ -8,7 +8,15 @@ const IndexPage = () => (
     <SEO title="Frohnatur - Unverpackt" />
     <div style={{backgroundColor: '#dedede', marginBottom: `1.45rem` }}>
       <h5 style={{textAlign: 'center'}}>Hier entsteht eine neue Website</h5>
-        <Image />
+      <div className="image-wrapper">
+        <div className="image-overlay">
+          <p>Coming soon</p>
+        </div>
+       
+      <Image />
+
+      </div>
+        
       <p style={{textAlign: 'center'}}>Besuchen Sie uns doch auf: <br /> <br />
       <a style={{textAlign: 'center'}} 
         rel="noreferrer" 
@@ -22,7 +30,15 @@ const IndexPage = () => (
         rel="noreferrer" 
         href="https://www.instagram.com/frohnatur_unverpackt/" 
         target="_blank"
-        > Frohnatur Unverpackt auf Instagram
+        > Frohnatur Unverpackt auf Instagram (Lüneburg)
+      </a>
+      <br />
+      <br />
+      <a 
+        rel="noreferrer" 
+        href="https://www.instagram.com/frohnatur_unverpackt_tarp/" 
+        target="_blank"
+        > Frohnatur Unverpackt auf Instagram (Tarp)
       </a>
       </p>
     </div>
