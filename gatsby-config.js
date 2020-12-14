@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Frohnatur - Unverpackt`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Unverpackt und nachhaltig einkaufen bei FrohNatur. Von Lebensmittel, über Drogerie  gibt es bei unserem Onlineshop, sowie in unserem Laden in Lüneburg, alles. Für die Natur, die Umwelt und den Menschen.`,
     author: `@gatsbyjs`,
   },
   plugins: [

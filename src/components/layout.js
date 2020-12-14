@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./header"
 import "./layout.css"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
  
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
           backgroundColor: '#dedede'      
         }}>{children}</main>
       </div>
+      <Footer />
     </>
   )
 }
